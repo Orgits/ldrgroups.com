@@ -16,6 +16,12 @@ export default function Home() {
       <p className="text-lg text-gray-600 dark:text-gray-400 mt-2">
         We are working hard to bring something amazing. Stay tuned!
       </p>
+      <p className="text-lg text-gray-600 dark:text-gray-400 mt-2">
+        - LDR GROUPS
+      </p>
+      <span className="text-sm text-gray-500 dark:text-gray-400 mt-2">
+        Your partner in strategic consulting excellence.
+      </span>
     </div>
   );
 }
