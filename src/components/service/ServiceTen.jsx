@@ -12,12 +12,12 @@ function ServiceTen() {
                         {/* Manually added 30 services */}
 
                         {/* Service 1 */}
-                        
+
 
                         {/* Service 2 */}
                         <div className="col-xl-4 col-md-6 col-sm-12 col-12 pb--140 pb_md--100">
                             <div className="service-two-inner">
-                                <Link to={'/service-details/2'} >
+                                <Link to={'#'} >
                                     <img src="/assets/images/service/Reports & Certification.png" alt="Reports & Certification" />
                                 </Link>
                                 <div className="body-content">
@@ -25,7 +25,7 @@ function ServiceTen() {
                                     <p className="dsic">
                                         Obtain detailed and reliable financial reports with certifications for legal compliance.
                                     </p>
-                                    <Link className="rts-read-more-two color-primary" to={'/service-details/2'}>
+                                    <Link className="rts-read-more-two color-primary" to={'#'}>
                                         Read More <i className="far fa-arrow-right" />
                                     </Link>
                                 </div>
@@ -35,7 +35,7 @@ function ServiceTen() {
                         {/* Service 3 */}
                         <div className="col-xl-4 col-md-6 col-sm-12 col-12 pb--140 pb_md--100">
                             <div className="service-two-inner">
-                                <Link to={'/service-details/3'} >
+                                <Link to={'#'} >
                                     <img src="/assets/images/service/Outsourcing Support Service.png" alt="Outsourcing Support" />
                                 </Link>
                                 <div className="body-content">
@@ -43,19 +43,19 @@ function ServiceTen() {
                                     <p className="dsic">
                                         Streamline your financial processes by outsourcing accounting, payroll, and reporting tasks.
                                     </p>
-                                    <Link className="rts-read-more-two color-primary" to={'/service-details/3'}>
+                                    <Link className="rts-read-more-two color-primary" to={'#'}>
                                         Read More <i className="far fa-arrow-right" />
                                     </Link>
                                 </div>
                             </div>
                         </div>
 
-                     
+
 
                         {/* Service 5 */}
                         <div className="col-xl-4 col-md-6 col-sm-12 col-12 pb--140 pb_md--100">
                             <div className="service-two-inner">
-                                <Link to={'/service-details/5'} >
+                                <Link to={'#'} >
                                     <img src="/assets/images/service/FEMA Advisory.png" alt="FEMA Advisory" />
                                 </Link>
                                 <div className="body-content">
@@ -63,7 +63,7 @@ function ServiceTen() {
                                     <p className="dsic">
                                         Navigate India's Foreign Exchange Management Act (FEMA) regulations with expert advisory.
                                     </p>
-                                    <Link className="rts-read-more-two color-primary" to={'/service-details/5'}>
+                                    <Link className="rts-read-more-two color-primary" to={'#'}>
                                         Read More <i className="far fa-arrow-right" />
                                     </Link>
                                 </div>
@@ -73,7 +73,7 @@ function ServiceTen() {
                         {/* Service 6 */}
                         <div className="col-xl-4 col-md-6 col-sm-12 col-12 pb--140 pb_md--100">
                             <div className="service-two-inner">
-                                <Link to={'/service-details/6'} >
+                                <Link to={'#'} >
                                     <img src="/assets/images/service/Corporate Law.png" alt="Corporate Law" />
                                 </Link>
                                 <div className="body-content">
@@ -81,7 +81,7 @@ function ServiceTen() {
                                     <p className="dsic">
                                         Get expert legal solutions for company formation, mergers, acquisitions, and governance.
                                     </p>
-                                    <Link className="rts-read-more-two color-primary" to={'/service-details/6'}>
+                                    <Link className="rts-read-more-two color-primary" to={'#'}>
                                         Read More <i className="far fa-arrow-right" />
                                     </Link>
                                 </div>
@@ -116,13 +116,13 @@ function ServiceTen() {
                         ].map((service, index) => (
                             <div key={index + 7} className="col-xl-4 col-md-6 col-sm-12 col-12 pb--140 pb_md--100">
                                 <div className="service-two-inner">
-                                    <Link to={`/service-details/${index + 1}`} >
+                                    <Link to={"#"} >
                                         <img src={`/assets/images/service/${service}.png`} alt={service} />
                                     </Link>
                                     <div className="body-content">
                                         <h5 className="title">{service}</h5>
                                         <p className="dsic">Expert services to help manage {service.toLowerCase()} effectively.</p>
-                                        <Link className="rts-read-more-two color-primary" to={`/service-details/${index + 2}`}>
+                                        <Link className="rts-read-more-two color-primary" to={"#"}>
                                             Read More <i className="far fa-arrow-right" />
                                         </Link>
                                     </div>

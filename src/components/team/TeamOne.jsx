@@ -50,7 +50,7 @@ function TeamOne() {
                                     <div className="team-image-area">
                                         <Link to={'/team-details'}>
                                             <img
-                                                src="assets/images/team/tm/01.jpg"
+                                                src="assets/images/team/tm/Ratan.png"
                                                 alt="Business_Team_single"
                                             />
                                             <div className="team-social">
@@ -67,9 +67,9 @@ function TeamOne() {
                                     </div>
                                     <div className="single-details">
                                         <Link to={'/team-details'}>
-                                            <h5 className="title">N/A</h5>
+                                            <h5 className="title">CA Ratan Singh</h5>
                                         </Link>
-                                        <p>Founder</p>
+                                        <p>Founder & CEO</p>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -78,7 +78,7 @@ function TeamOne() {
                                     <div className="team-image-area">
                                         <Link to={'/team-details'}>
                                             <img
-                                                src="assets/images/team/tm/02.jpg"
+                                                src="assets/images/team/tm/Sachin.png"
                                                 alt="Business_Team_single"
                                             />
                                             <div className="team-social">
@@ -95,7 +95,7 @@ function TeamOne() {
                                     </div>
                                     <div className="single-details">
                                         <Link to={'/team-details'}>
-                                            <h5 className="title">N/A</h5>
+                                            <h5 className="title">CA Sachin Grover</h5>
                                         </Link>
                                         <p>Co-Founder</p>
                                     </div>
@@ -162,7 +162,7 @@ function TeamOne() {
                                     <div className="team-image-area">
                                         <Link to={'/team-details'}>
                                             <img
-                                                src="assets/images/team/tm/04.jpg"
+                                                src="assets/images/team/tm/03.jpg"
                                                 alt="Business_Team_single"
                                             />
                                             <div className="team-social">

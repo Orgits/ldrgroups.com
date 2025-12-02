@@ -67,9 +67,7 @@ function BlogGrid() {
                                         {/* single infoe end */}
                                     </div>
                                     <h3 className="title">{blogPost.title}</h3>
-                                    <p className="disc para-1">
-                                        {blogPost.descripTion}
-                                    </p>
+                                    <p className="disc para-1" dangerouslySetInnerHTML={{ __html: blogPost.descripTion }}></p>
                                     {/* quote area start */}
                                     {/* quote area end */}
                                     
@@ -285,7 +283,7 @@ function BlogGrid() {
                                     <img src="../assets/images/logo/logo.svg" alt="Logo-image" />
                                 </a>
                                 <p className="disc">
-                                LDR Groups is a strategic consulting firm helping businesses grow and expand efficiently. It specializes in innovative solutions for sustainable success.
+                                LDR Groups is a professional audit, tax, and compliance advisory firm supporting businesses with accurate, transparent, and reliable financial solutions.
                                 </p>
                                 <ul className="social-three-wrapper">
                                     <li>

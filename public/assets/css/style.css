@@ -15388,7 +15388,7 @@ body.sal-disabled [data-sal|=flip] {
 
 .main-header {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
 }
 .main-header .nav-main ul {

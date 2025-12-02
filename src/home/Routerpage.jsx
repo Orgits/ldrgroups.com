@@ -63,9 +63,10 @@ function RouterPage() {
                     <Route path="/home-nine" element={<HomeNine />}></Route>
                     <Route path="/home-ten" element={<HomeTen />}></Route> */}
                     <Route path="/our-service" element={<OurService />}></Route>
+                    <Route path="/service-details/:id" element={<OurService />} />
                     <Route path="/service-2" element={<ServiceTwo />}></Route>
                     <Route path="/service-3" element={<ServiceThree />}></Route>
-                    <Route path="/service-details" element={<ServiceDetails />}></Route>
+                   
                     <Route path="/appoinment" element={<Appoinment />}></Route>
                     <Route path="/about-us" element={<AboutUs />}></Route>
                     <Route path="/pricing-plane" element={<PricingPlane />}></Route>

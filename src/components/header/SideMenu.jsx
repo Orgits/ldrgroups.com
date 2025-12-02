@@ -64,7 +64,7 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                     </Link>
                     <div className="body d-none d-xl-block">
                         <p className="disc">
-                        LDR Groups is a strategic consulting firm helping businesses grow and expand efficiently. It specializes in innovative solutions for sustainable success.
+                        LDR Groups is a professional audit, tax, and compliance advisory firm supporting businesses with accurate, transparent, and reliable financial solutions.
                         </p>
                         <div className="get-in-touch">
                             {/* title */}

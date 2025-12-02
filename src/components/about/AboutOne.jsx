@@ -103,11 +103,11 @@ function AboutOne() {
                                 />
                                 <div className="experience">
                                     <div className="left single">
-                                        <h2 className="title"><b>7+</b></h2>
+                                        <h2 className="title"><b>8+</b></h2>
                                         <p className="time">Years</p>
                                     </div>
                                     <div className="right single">
-                                        <p className="disc">Of experience in financial & business consulting</p>
+                                        <p className="disc">Of Experience in Financial & Business Consulting</p>
                                     </div>
                                 </div>
                             </div>

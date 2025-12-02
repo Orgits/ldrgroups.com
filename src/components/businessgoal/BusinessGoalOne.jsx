@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+
 function BusinessGoalOne() {
     const [isVideoOpen, setIsVideoOpen] = useState(false);
 
@@ -23,20 +24,17 @@ function BusinessGoalOne() {
             }
         };
 
-        // Add event listener for keyup
         document.addEventListener('keyup', handleKeyUp);
 
-        // Cleanup function to remove event listener on component unmount
         return () => {
             document.removeEventListener('keyup', handleKeyUp);
         };
     }, []);
 
-
     return (
         <div>
             {/* business goal area */}
-            <div className="rts-business-goal mt--0 rts-section-gapBottom" id='goal'>
+            <div className="rts-business-goal mt--0 rts-section-gapBottom" id="goal">
                 <div className="container">
                     <div className="row">
                         {/* business goal left */}
@@ -51,71 +49,73 @@ function BusinessGoalOne() {
                             </div>
                         </div>
                         {/* business goal right */}
-                        {/* right area business */}
                         <div className="col-lg-6 mt--35 mt_md--70 mt_sm--70">
                             <div className="business-goal-right">
                                 <div className="rts-title-area business text-start pl--30">
-                                    <p className="pre-title">STRATEGIC BUSINESS CONSULTING & FINANCIAL EXPERTISE</p>
-                                    <h3 className="title">Driving Business Success with Precision & Compliance</h3>
+                                    <p className="pre-title">AUDIT, TAXATION & COMPLIANCE EXCELLENCE</p>
+                                    <h3 className="title">
+                                        Empowering Businesses with Trust, Accuracy & Regulatory Confidence
+                                    </h3>
                                 </div>
                                 <div className="rts-business-goal pl--30">
                                     <div className="single-goal">
                                         <img
                                             src="assets/images/business-goal/icon/01.svg"
-                                            alt="business_Icone"
+                                            alt="business_Icon"
                                             className="thumb"
                                         />
                                         <div className="goal-wrapper">
-                                            <h6 className="title"> Expert Business Advisory</h6>
+                                            <h6 className="title">Audit, Tax & Regulatory Expertise</h6>
                                             <p className="disc">
-                                            Providing tailored consulting solutions to enhance operational efficiency, financial management, and regulatory compliance.
+                                                From statutory and internal audits to GST and corporate tax filing, we
+                                                deliver precise, compliant and insight-driven services that strengthen
+                                                governance, improve controls and support better decision-making.
                                             </p>
                                         </div>
                                     </div>
                                     <div className="single-goal">
                                         <img
                                             src="assets/images/business-goal/icon/02.svg"
-                                            alt="business_Icone"
+                                            alt="business_Icon"
                                             className="thumb"
                                         />
                                         <div className="goal-wrapper">
-                                            <h6 className="title">Excellent Customer Support</h6>
+                                            <h6 className="title">End-to-End Support for Businesses & NRIs</h6>
                                             <p className="disc">
-                                            Ensuring seamless business operations with round-the-clock professional support and strategic guidance.
+                                                We act as a long-term partner with bookkeeping, payroll, virtual CFO
+                                                support, NRI and cross-border taxation, ROC and FEMA compliance, so you
+                                                can focus on growth while we manage the complexity.
                                             </p>
                                         </div>
                                     </div>
                                     <div className="goal-button-wrapper mt--70">
-                                        <Link
-                                            to={'/contactus'}
-                                            className="rts-btn btn-primary color-h-black"
-                                        >
+                                        <Link to="/contactus" className="rts-btn btn-primary color-h-black">
                                             Contact Us
                                         </Link>
                                         <div className="vedio-icone">
                                             {/* Video Play Button */}
-                                            <Link id="play-video" className="video-play-button" to={'#'} onClick={openVideo}>
+                                            <Link
+                                                id="play-video"
+                                                className="video-play-button"
+                                                to="#"
+                                                onClick={openVideo}
+                                            >
                                                 <span />
                                                 <span className="outer-text">Watch Video</span>
                                             </Link>
-
                                             {/* Video Overlay */}
                                             {isVideoOpen && (
                                                 <div id="video-overlay" className="video-overlay open">
                                                     {/* Close button for the video overlay */}
-                                                    <Link className="video-overlay-close" to={'#'} onClick={closeVideo}>
+                                                    <Link
+                                                        className="video-overlay-close"
+                                                        to="#"
+                                                        onClick={closeVideo}
+                                                    >
                                                         ×
                                                     </Link>
                                                     {/* Video iframe */}
-                                                    <iframe
-                                                        width="560"
-                                                        height="315"
-                                                        src="https://www.youtube.com/embed/6stlCkUDG_s"
-                                                        title="YouTube video player"
-                                                        frameBorder="0"
-                                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                                        allowFullScreen
-                                                    ></iframe>
+                                                    
                                                 </div>
                                             )}
                                         </div>
@@ -123,14 +123,13 @@ function BusinessGoalOne() {
                                 </div>
                             </div>
                         </div>
-                        {/* right area business ENd */}
+                        {/* right area business End */}
                     </div>
                 </div>
             </div>
             {/* business goal area End */}
-
         </div>
-    )
+    );
 }
 
-export default BusinessGoalOne
+export default BusinessGoalOne;

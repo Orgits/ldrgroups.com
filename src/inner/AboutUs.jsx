@@ -110,24 +110,26 @@ function OurService() {
                                     <div className="rts-progress-one-wrapper">
                                         <div className="single-progress">
                                             <div className="progress-top">
-                                                <p className="progress-title">Audit & Assurance</p>
-                                                <span className="persectage">95%</span>
-                                            </div>
-                                            <div className="meter cadetblue">
-                                                <span data-progress={95} style={{ width: 300 }} />
+                                                <p className="progress-title">Statutory Audit</p>
                                             </div>
                                         </div>
                                         <div className="single-progress">
                                             <div className="progress-top">
-                                                <p className="progress-title">Taxation & Compliance</p>
-                                                <span className="persectage">90%</span>
+                                                <p className="progress-title">Corporate Tax Filing</p>
                                             </div>
-                                            <div className="meter">
-                                                <span data-progress={90} style={{ width: 400 }} />
+                                        </div>
+                                        <div className="single-progress">
+                                            <div className="progress-top">
+                                                <p className="progress-title">Bookkeeping Services</p>
+                                            </div>
+                                        </div>
+                                        <div className="single-progress">
+                                            <div className="progress-top">
+                                                <p className="progress-title">Virtual CFO Services & More</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <Link to={'#'} className="rts-btn btn-primary">
+                                    <Link to={'/contactus'} className="rts-btn btn-primary">
                                         Contact Us
                                     </Link>
                                 </div>
@@ -164,9 +166,9 @@ function OurService() {
                                                 src="assets/images/service/icon/13.svg"
                                                 alt="Business-icon"
                                             />
-                                            <h5 className="title">Audit & Assurance</h5>
+                                            <h5 className="title">Statutory Audit</h5>
                                             <p className="disc">
-                                                Ensuring financial transparency and regulatory compliance with expert audits.
+                                                We provide independent and reliable Statutory Audit services in compliance with the Companies Act and applicable regulations. Our audits go beyond checklist compliance to enhance transparency, strengthen internal controls, and build stakeholder confidence in your financial statements.
                                             </p>
                                         </div>
                                         <Link href="service-details.html" className="over_link" />
@@ -193,10 +195,8 @@ function OurService() {
                                                 src="assets/images/service/icon/14.svg"
                                                 alt="Business-icon"
                                             />
-                                            <h5 className="title">Taxation & Compliance</h5>
-                                            <p className="disc">
-                                                Comprehensive tax planning, filing, and GST compliance solutions.
-                                            </p>
+                                            <h5 className="title">GST Compliance</h5>
+                                            <p className="disc">We provide end-to-end GST services including registration, return filing, ITC reconciliation, e-invoicing, and e-way bill compliance. Our experts help you avoid penalties, protect input tax credit, and structure transactions to minimize GST impact on your business.</p>
                                         </div>
                                         <Link href="service-details.html" className="over_link" />
                                     </div>
@@ -222,9 +222,9 @@ function OurService() {
                                                 src="assets/images/service/icon/15.svg"
                                                 alt="Business-icon"
                                             />
-                                            <h5 className="title">Business Consulting</h5>
+                                            <h5 className="title">Corporate Tax Filing</h5>
                                             <p className="disc">
-                                                Strategic guidance for startups, SMEs, and multinational businesses.
+                                                From computing taxable income to filing company ITRs, MAT/AMT compliance, and TDS/TCS reconciliation, we handle the full spectrum of corporate tax requirements. Our team focuses on accurate compliance while optimizing available deductions and incentives to reduce your overall tax burden.
                                             </p>
                                         </div>
                                         <Link href="service-details.html" className="over_link" />
@@ -299,7 +299,7 @@ function OurService() {
                                                 data-bs-parent="#accordionExample"
                                             >
                                                 <div className="accordion-body">
-                                                Our expert team offers strategic financial planning, tax optimization, risk assessment, and business advisory services to ensure your business stays compliant and financially strong. We provide tailored solutions to enhance profitability, improve cash flow, and support expansion.
+                                                    Our expert team offers strategic financial planning, tax optimization, risk assessment, and business advisory services to ensure your business stays compliant and financially strong. We provide tailored solutions to enhance profitability, improve cash flow, and support expansion.
                                                 </div>
                                             </div>
                                         </div>
@@ -308,19 +308,19 @@ function OurService() {
                                         <Accordion.Item eventKey="0">
                                             <Accordion.Header><span>01. </span> What services does LDR Groups offer?</Accordion.Header>
                                             <Accordion.Body>
-                                            LDR Groups provides a wide range of services, including audit & assurance, taxation, GST compliance, business consulting, corporate law advisory, financial management, and international taxation. We also assist startups, SMEs, and large enterprises with legal and regulatory compliance.
+                                                LDR Groups provides a wide range of services, including audit & assurance, taxation, GST compliance, business consulting, corporate law advisory, financial management, and international taxation. We also assist startups, SMEs, and large enterprises with legal and regulatory compliance.
                                             </Accordion.Body>
                                         </Accordion.Item>
                                         <Accordion.Item eventKey="1">
                                             <Accordion.Header><span>02. </span> How can LDR Groups help my business grow?</Accordion.Header>
                                             <Accordion.Body>
-                                            Our expert team offers strategic financial planning, tax optimization, risk assessment, and business advisory services to ensure your business stays compliant and financially strong. We provide tailored solutions to enhance profitability, improve cash flow, and support expansion.
+                                                Our expert team offers strategic financial planning, tax optimization, risk assessment, and business advisory services to ensure your business stays compliant and financially strong. We provide tailored solutions to enhance profitability, improve cash flow, and support expansion.
                                             </Accordion.Body>
                                         </Accordion.Item>
                                         <Accordion.Item eventKey="1">
                                             <Accordion.Header><span>03. </span> How do I get started with LDR Groups?</Accordion.Header>
                                             <Accordion.Body>
-                                            You can contact us via phone, email, or our website contact form to schedule a consultation. Our team will assess your business needs and provide customized solutions to help you achieve your financial and operational goals. 🚀
+                                                You can contact us via phone, email, or our website contact form to schedule a consultation. Our team will assess your business needs and provide customized solutions to help you achieve your financial and operational goals. 🚀
                                             </Accordion.Body>
                                         </Accordion.Item>
                                     </Accordion>

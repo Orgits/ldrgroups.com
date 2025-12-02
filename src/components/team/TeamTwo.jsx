@@ -1,18 +1,18 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/swiper-bundle.css';
+import 'swiper/swiper-bundle.css'; // Core Swiper styles
 import { Navigation, Scrollbar, A11y, EffectFade, Autoplay } from 'swiper/modules';
+// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
-
 import { Link } from 'react-router-dom';
 
 function TeamTwo() {
     return (
         <div>
-            {/* rts team two area */}
-            <div className="rts-team-area rts-section-gap team-two">
+            {/* start team section */}
+            <div className="rts-team-area rts-section-gap bg-team">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
@@ -22,205 +22,174 @@ function TeamTwo() {
                             </div>
                         </div>
                     </div>
-                    <div className="row g-5 mt--20 mt_md--30 mt_sm--0">
-                        <div className="swiper">
-                            <Swiper
-                                // install Swiper modules
-                                modules={[Navigation, EffectFade, Scrollbar, A11y, Autoplay]}
-                                className="swiper mySwiperh3_team pb--110 pl--20 pr--20"
-                                speed={200}
-                                slidesPerView={3}
-                                spaceBetween={30}
-                                loop={true}
-                                autoplay={true}
-                                navigation={{
-                                    nextEl: '.swiper-button-next',
-                                    prevEl: '.swiper-button-prev',
-                                }}
-                                breakpoints={{
-                                    1200: { slidesPerView: 3 },
-                                    900: { slidesPerView: 2 },
-                                    768: { slidesPerView: 2 },
-                                    580: { slidesPerView: 1 },
-                                    450: { slidesPerView: 1 },
-                                    0: { slidesPerView: 1 },
-                                }}
-                            >
-                                <SwiperSlide>
-                                    {/* single team inner */}
-                                    <div className="team-inner-two">
-                                        <Link to={'/team-details'} className="thumbnail">
-                                            <img src="assets/images/team/tm/lg-01.jpg" alt="" />
-                                        </Link>
-                                        {/* Acquaintance area */}
-                                        <div className="acquaintance-area">
-                                            <div className="header">
-                                                <h5 className="title">Kevin Martin</h5>
-                                                <span>Consultant</span>
-                                            </div>
-                                            <div className="acquaintance-social">
-                                                <Link href="#">
-                                                    <i className="fab fa-facebook-f" />
-                                                </Link>
-                                                <Link href="#">
+                    <div className="row g-5 mt--0">
+                        <Swiper
+                            // install Swiper modules
+                            modules={[Navigation, Scrollbar, A11y, Autoplay]}
+                            className="mySwiperh1_team"
+                            speed={1500}
+                            slidesPerView={4}
+                            spaceBetween={30}
+                            loop={true}
+                            autoplay={true}
+                            navigation={{
+                                nextEl: '.rts-next',
+                                prevEl: '.rts-prev',
+                            }}
+                            breakpoints={{
+                                1200: { slidesPerView: 4 },
+                                900: { slidesPerView: 3 },
+                                768: { slidesPerView: 2 },
+                                580: { slidesPerView: 2 },
+                                450: { slidesPerView: 1 },
+                                0: { slidesPerView: 1 },
+                            }}
+                        >
+                            <SwiperSlide>
+                                <div className="team-single-one-start">
+                                    <div className="team-image-area">
+                                        <Link to={'/team-details'}>
+                                            <img
+                                                src="assets/images/team/tm/Ratan.png"
+                                                alt="Business_Team_single"
+                                            />
+                                            <div className="team-social">
+                                                <div className="main">
+                                                    <i className="fal fa-plus" />
+                                                </div>
+                                                <div className="team-social-one">
+                                                    <i className="fab fa-youtube" />
                                                     <i className="fab fa-twitter" />
-                                                </Link>
-                                                <Link href="#">
                                                     <i className="fab fa-instagram" />
-                                                </Link>
+                                                </div>
                                             </div>
-                                        </div>
-                                        {/* Acquaintance area */}
-                                    </div>
-                                    {/* single team inner End */}
-                                </SwiperSlide>
-                                <SwiperSlide>
-                                    {/* single team inner */}
-                                    <div className="team-inner-two">
-                                        <Link to={'/team-details'} className="thumbnail">
-                                            <img src="assets/images/team/tm/lg-02.jpg" alt="" />
                                         </Link>
-                                        {/* Acquaintance area */}
-                                        <div className="acquaintance-area">
-                                            <div className="header">
-                                                <h5 className="title">Kevin Martin</h5>
-                                                <span>Consultant</span>
-                                            </div>
-                                            <div className="acquaintance-social">
-                                                <Link href="#">
-                                                    <i className="fab fa-facebook-f" />
-                                                </Link>
-                                                <Link href="#">
-                                                    <i className="fab fa-twitter" />
-                                                </Link>
-                                                <Link href="#">
-                                                    <i className="fab fa-instagram" />
-                                                </Link>
-                                            </div>
-                                        </div>
-                                        {/* Acquaintance area */}
                                     </div>
-                                    {/* single team inner End */}
-                                </SwiperSlide>
-                                <SwiperSlide>
-                                    {/* single team inner */}
-                                    <div className="team-inner-two">
-                                        <Link to={'/team-details'} className="thumbnail">
-                                            <img src="assets/images/team/tm/lg-03.jpg" alt="" />
+                                    <div className="single-details">
+                                        <Link to={'/team-details'}>
+                                            <h5 className="title">CA Ratan Singh</h5>
                                         </Link>
-                                        {/* Acquaintance area */}
-                                        <div className="acquaintance-area">
-                                            <div className="header">
-                                                <h5 className="title">Kevin Martin</h5>
-                                                <span>Consultant</span>
-                                            </div>
-                                            <div className="acquaintance-social">
-                                                <Link href="#">
-                                                    <i className="fab fa-facebook-f" />
-                                                </Link>
-                                                <Link href="#">
-                                                    <i className="fab fa-twitter" />
-                                                </Link>
-                                                <Link href="#">
-                                                    <i className="fab fa-instagram" />
-                                                </Link>
-                                            </div>
-                                        </div>
-                                        {/* Acquaintance area */}
+                                        <p>Founder & CEO</p>
                                     </div>
-                                    {/* single team inner End */}
-                                </SwiperSlide>
-                                <SwiperSlide>
-                                    {/* single team inner */}
-                                    <div className="team-inner-two">
-                                        <Link to={'/team-details'} className="thumbnail">
-                                            <img src="assets/images/team/tm/lg-01.jpg" alt="" />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="team-single-one-start">
+                                    <div className="team-image-area">
+                                        <Link to={'/team-details'}>
+                                            <img
+                                                src="assets/images/team/tm/Sachin.png"
+                                                alt="Business_Team_single"
+                                            />
+                                            <div className="team-social">
+                                                <div className="main">
+                                                    <i className="fal fa-plus" />
+                                                </div>
+                                                <div className="team-social-one">
+                                                    <i className="fab fa-youtube" />
+                                                    <i className="fab fa-twitter" />
+                                                    <i className="fab fa-instagram" />
+                                                </div>
+                                            </div>
                                         </Link>
-                                        {/* Acquaintance area */}
-                                        <div className="acquaintance-area">
-                                            <div className="header">
-                                                <h5 className="title">Kevin Martin</h5>
-                                                <span>Consultant</span>
-                                            </div>
-                                            <div className="acquaintance-social">
-                                                <Link href="#">
-                                                    <i className="fab fa-facebook-f" />
-                                                </Link>
-                                                <Link href="#">
-                                                    <i className="fab fa-twitter" />
-                                                </Link>
-                                                <Link href="#">
-                                                    <i className="fab fa-instagram" />
-                                                </Link>
-                                            </div>
-                                        </div>
-                                        {/* Acquaintance area */}
                                     </div>
-                                    {/* single team inner End */}
-                                </SwiperSlide>
-                                <SwiperSlide>
-                                    {/* single team inner */}
-                                    <div className="team-inner-two">
-                                        <Link to={'/team-details'} className="thumbnail">
-                                            <img src="assets/images/team/tm/lg-02.jpg" alt="" />
+                                    <div className="single-details">
+                                        <Link to={'/team-details'}>
+                                            <h5 className="title">CA Sachin Grover</h5>
                                         </Link>
-                                        {/* Acquaintance area */}
-                                        <div className="acquaintance-area">
-                                            <div className="header">
-                                                <h5 className="title">Kevin Martin</h5>
-                                                <span>Consultant</span>
-                                            </div>
-                                            <div className="acquaintance-social">
-                                                <Link href="#">
-                                                    <i className="fab fa-facebook-f" />
-                                                </Link>
-                                                <Link href="#">
-                                                    <i className="fab fa-twitter" />
-                                                </Link>
-                                                <Link href="#">
-                                                    <i className="fab fa-instagram" />
-                                                </Link>
-                                            </div>
-                                        </div>
-                                        {/* Acquaintance area */}
+                                        <p>Co-Founder</p>
                                     </div>
-                                    {/* single team inner End */}
-                                </SwiperSlide>
-                                <SwiperSlide>
-                                    {/* single team inner */}
-                                    <div className="team-inner-two">
-                                        <Link to={'/team-details'} className="thumbnail">
-                                            <img src="assets/images/team/tm/lg-03.jpg" alt="" />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="team-single-one-start">
+                                    <div className="team-image-area">
+                                        <Link to={'/team-details'}>
+                                            <img
+                                                src="assets/images/team/tm/03.jpg"
+                                                alt="Business_Team_single"
+                                            />
+                                            <div className="team-social">
+                                                <div className="main">
+                                                    <i className="fal fa-plus" />
+                                                </div>
+                                                <div className="team-social-one">
+                                                    <i className="fab fa-youtube" />
+                                                    <i className="fab fa-twitter" />
+                                                    <i className="fab fa-instagram" />
+                                                </div>
+                                            </div>
                                         </Link>
-                                        {/* Acquaintance area */}
-                                        <div className="acquaintance-area">
-                                            <div className="header">
-                                                <h5 className="title">Kevin Martin</h5>
-                                                <span>Consultant</span>
-                                            </div>
-                                            <div className="acquaintance-social">
-                                                <Link href="#">
-                                                    <i className="fab fa-facebook-f" />
-                                                </Link>
-                                                <Link href="#">
-                                                    <i className="fab fa-twitter" />
-                                                </Link>
-                                                <Link href="#">
-                                                    <i className="fab fa-instagram" />
-                                                </Link>
-                                            </div>
-                                        </div>
-                                        {/* Acquaintance area */}
                                     </div>
-                                    {/* single team inner End */}
-                                </SwiperSlide>
-
-                            </Swiper>
-                        </div>
+                                    <div className="single-details">
+                                        <Link to={'/team-details'}>
+                                            <h5 className="title">N/A</h5>
+                                        </Link>
+                                        <p>Deputy Manager</p>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="team-single-one-start">
+                                    <div className="team-image-area">
+                                        <Link to={'/team-details'}>
+                                            <img
+                                                src="assets/images/team/tm/04.jpg"
+                                                alt="Business_Team_single"
+                                            />
+                                            <div className="team-social">
+                                                <div className="main">
+                                                    <i className="fal fa-plus" />
+                                                </div>
+                                                <div className="team-social-one">
+                                                    <i className="fab fa-youtube" />
+                                                    <i className="fab fa-twitter" />
+                                                    <i className="fab fa-instagram" />
+                                                </div>
+                                            </div>
+                                        </Link>
+                                    </div>
+                                    <div className="single-details">
+                                        <Link to={'/team-details'}>
+                                            <h5 className="title">N/A</h5>
+                                        </Link>
+                                        <p>Finance Manager</p>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="team-single-one-start">
+                                    <div className="team-image-area">
+                                        <Link to={'/team-details'}>
+                                            <img
+                                                src="assets/images/team/tm/03.jpg"
+                                                alt="Business_Team_single"
+                                            />
+                                            <div className="team-social">
+                                                <div className="main">
+                                                    <i className="fal fa-plus" />
+                                                </div>
+                                                <div className="team-social-one">
+                                                    <i className="fab fa-youtube" />
+                                                    <i className="fab fa-twitter" />
+                                                    <i className="fab fa-instagram" />
+                                                </div>
+                                            </div>
+                                        </Link>
+                                    </div>
+                                    <div className="single-details">
+                                        <Link to={'/team-details'}>
+                                            <h5 className="title">N/A</h5>
+                                        </Link>
+                                        <p>Finance Manager</p>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                        </Swiper>
                     </div>
                 </div>
             </div>
-            {/* rts team two area End */}
+            {/* end team section */}
         </div>
     )
 }
