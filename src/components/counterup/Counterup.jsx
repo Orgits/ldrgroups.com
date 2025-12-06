@@ -21,8 +21,8 @@ function Counterup() {
                                 <img src="assets/images/counterup/icon/01.svg" alt="Business_counter" />
                                 <div ref={ref1} className="counter-details">
                                     {inView1 && (
-                                        <h2 className="title counter">
-                                            <CountUp start={0} end={700} duration={1} />
+                                        <h2 style={{color: 'white', marginBottom: '0px'}}>
+                                            <CountUp start={0} end={700} duration={1} />+
                                         </h2>
                                     )}
                                     <p className="disc">Successful Clients</p>
@@ -36,8 +36,8 @@ function Counterup() {
                                 <img src="assets/images/counterup/icon/02.svg" alt="Business_counter" />
                                 <div ref={ref2} className="counter-details">
                                     {inView2 && (
-                                        <h2 className="title counter">
-                                            <CountUp start={0} end={1200} duration={1} />
+                                        <h2 style={{color: 'white', marginBottom: '0px'}}>
+                                            <CountUp start={0} end={1200} duration={1} />+
                                         </h2>
                                     )}
                                     <p className="disc">Projects Completed</p>
@@ -51,8 +51,8 @@ function Counterup() {
                                 <img src="assets/images/counterup/icon/03.svg" alt="Business_counter" />
                                 <div ref={ref3} className="counter-details">
                                     {inView3 && (
-                                        <h2 className="title counter">
-                                            <CountUp start={0} end={50} duration={1} />
+                                        <h2 style={{color: 'white', marginBottom: '0px'}}>
+                                            <CountUp start={0} end={50} duration={1} />+
                                         </h2>
                                     )}
                                     <p className="disc">Industries Served</p>
@@ -66,8 +66,8 @@ function Counterup() {
                                 <img src="assets/images/counterup/icon/04.svg" alt="Business_counter" />
                                 <div ref={ref4} className="counter-details">
                                     {inView4 && (
-                                        <h2 className="title counter">
-                                            <CountUp start={0} end={250} duration={1} />
+                                        <h2 style={{color: 'white', marginBottom: '0px'}}>
+                                            <CountUp start={0} end={250} duration={1} />+
                                         </h2>
                                     )}
                                     <p className="disc">Expert Consultants</p>

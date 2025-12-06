@@ -1,4 +1,6 @@
-import React, { useState, useEffect } from "react";
+"use client";
+
+import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import HeaderOne from "../components/header/HeaderOne";
 import Breadcrumb from "./Breadcrumb";
@@ -12,6 +14,16 @@ function ServiceDetail() {
   const [allServices, setAllServices] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth >= 1024);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsLargeScreen(window.innerWidth >= 1024);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   useEffect(() => {
     // Fetch services data from JSON file
@@ -106,37 +118,55 @@ function ServiceDetail() {
         style={{
           backgroundColor: "#fafbfc",
           minHeight: "100vh",
-          paddingTop: "50px",
+          paddingTop: "40px",
           paddingBottom: "60px",
+          "@media (max-width: 768px)": {
+            paddingTop: "24px",
+          },
         }}
       >
-        {/* Main Container */}
+        {/* Main Container - Updated for responsive layout */}
         <div
-          style={{ maxWidth: "1560px", margin: "0 auto", padding: "0 20px" }}
+          style={{
+            maxWidth: "1560px",
+            margin: "0 auto",
+            padding: isLargeScreen ? "0 40px" : "0 16px",
+          }}
         >
           <div
-            style={{ display: "flex", gap: "50px", alignItems: "flex-start" }}
+            style={{
+              display: "flex",
+              gap: isLargeScreen ? "50px" : "24px",
+              alignItems: "flex-start",
+              flexDirection: isLargeScreen ? "row" : "column",
+            }}
           >
             {/* Main Content - Left Column */}
-            <div style={{ flex: "1", minWidth: "0" }}>
+            <div
+              style={{
+                flex: "1",
+                minWidth: "0",
+                width: isLargeScreen ? "auto" : "100%",
+              }}
+            >
               {/* Hero Section with Image */}
               <div
                 style={{
                   marginBottom: "50px",
-                  borderRadius: "16px",
-                  overflow: "hidden",
-                  boxShadow: "0 8px 32px rgba(0, 0, 0, 0.06)",
-                  backgroundColor: "white",
                 }}
               >
                 <img
                   src={service.image || "/placeholder.svg"}
                   alt={service.title}
                   style={{
-                    width: "100%",
-                    height: "100%",
+                    width: isLargeScreen ? "50%" : "100%",
+                    height: "auto",
                     objectFit: "cover",
                     display: "block",
+                    minHeight: "300px",
+                    maxHeight: isLargeScreen ? "400px" : "none",
+                    margin: isLargeScreen ? "0 auto" : "0",
+                    borderRadius: "16px",
                   }}
                   onError={(e) => {
                     e.currentTarget.style.backgroundColor = "#e0e0e0";
@@ -149,7 +179,7 @@ function ServiceDetail() {
               <div style={{ marginBottom: "45px" }}>
                 <h1
                   style={{
-                    fontSize: "44px",
+                    fontSize: isLargeScreen ? "44px" : "28px",
                     fontWeight: "700",
                     color: "#0f172a",
                     marginBottom: "16px",
@@ -170,7 +200,7 @@ function ServiceDetail() {
                 ></div>
                 <p
                   style={{
-                    fontSize: "17px",
+                    fontSize: isLargeScreen ? "17px" : "15px",
                     color: "#475569",
                     lineHeight: "1.7",
                     maxWidth: "100%",
@@ -186,7 +216,7 @@ function ServiceDetail() {
                 <div style={{ marginBottom: "50px" }}>
                   <div
                     style={{
-                      fontSize: "15px",
+                      fontSize: isLargeScreen ? "15px" : "14px",
                       lineHeight: "1.8",
                       color: "#475569",
                     }}
@@ -216,7 +246,7 @@ function ServiceDetail() {
                     <div style={{ marginBottom: "32px" }}>
                       <h2
                         style={{
-                          fontSize: "28px",
+                          fontSize: isLargeScreen ? "28px" : "22px",
                           fontWeight: "700",
                           color: "#0f172a",
                           marginBottom: "12px",
@@ -225,9 +255,6 @@ function ServiceDetail() {
                           gap: "10px",
                         }}
                       >
-                        <span style={{ fontSize: "22px", color: "#0052CC" }}>
-                          ✓
-                        </span>
                         What Our Services Include
                       </h2>
                       <div
@@ -308,7 +335,7 @@ function ServiceDetail() {
                   <div style={{ marginBottom: "32px" }}>
                     <h2
                       style={{
-                        fontSize: "28px",
+                        fontSize: isLargeScreen ? "28px" : "22px",
                         fontWeight: "700",
                         color: "#0f172a",
                         marginBottom: "12px",
@@ -317,7 +344,6 @@ function ServiceDetail() {
                         gap: "10px",
                       }}
                     >
-                      <span style={{ fontSize: "22px" }}>⭐</span>
                       Why Choose Us
                     </h2>
                     <div
@@ -394,101 +420,103 @@ function ServiceDetail() {
               )}
             </div>
 
-            <div
-              style={{
-                width: "400px",
-                flexShrink: 0,
-                position: "sticky",
-                top: "50px",
-                display: "flex",
-                flexDirection: "column",
-                gap: "24px",
-              }}
-            >
-              {/* Top Services Widget */}
+            {isLargeScreen && (
               <div
                 style={{
-                  backgroundColor: "white",
-                  borderRadius: "16px",
-                  border: "1px solid #e2e8f0",
-                  padding: "32px 24px",
-                  boxShadow: "0 4px 16px rgba(0, 0, 0, 0.04)",
+                  width: "400px",
+                  flexShrink: 0,
+                  position: "sticky",
+                  top: "50px",
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "24px",
                 }}
               >
-                <h3
-                  style={{
-                    fontSize: "18px",
-                    fontWeight: "700",
-                    color: "#0f172a",
-                    marginBottom: "24px",
-                    paddingBottom: "16px",
-                    borderBottom: "2px solid #0052CC",
-                  }}
-                >
-                  ⭐ Top Services
-                </h3>
-
+                {/* Top Services Widget */}
                 <div
                   style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    gap: "12px",
+                    backgroundColor: "white",
+                    borderRadius: "16px",
+                    border: "1px solid #e2e8f0",
+                    padding: "24px",
+                    boxShadow: "0 4px 16px rgba(0, 0, 0, 0.04)",
                   }}
                 >
-                  {topServices.map((s) => (
-                    <a
-                      key={s.id}
-                      href={`/services/${s.slug}`}
-                      style={{
-                        display: "block",
-                        padding: "14px 16px",
-                        backgroundColor: "#f8fafc",
-                        borderRadius: "8px",
-                        textDecoration: "none",
-                        border: "1px solid #e2e8f0",
-                        transition: "all 0.3s ease",
-                        cursor: "pointer",
-                      }}
-                      onMouseEnter={(e) => {
-                        e.currentTarget.style.backgroundColor = "#e8f0ff";
-                        e.currentTarget.style.borderColor = "#0052CC";
-                        e.currentTarget.style.transform = "translateX(-4px)";
-                      }}
-                      onMouseLeave={(e) => {
-                        e.currentTarget.style.backgroundColor = "#f8fafc";
-                        e.currentTarget.style.borderColor = "#e2e8f0";
-                        e.currentTarget.style.transform = "translateX(0)";
-                      }}
-                    >
-                      <div
+                  <h3
+                    style={{
+                      fontSize: "18px",
+                      fontWeight: "700",
+                      color: "#0f172a",
+                      marginBottom: "24px",
+                      paddingBottom: "16px",
+                      borderBottom: "2px solid #0052CC",
+                    }}
+                  >
+                    Top Services
+                  </h3>
+
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "column",
+                      gap: "12px",
+                    }}
+                  >
+                    {topServices.map((s) => (
+                      <a
+                        key={s.id}
+                        href={`/services/${s.slug}`}
                         style={{
-                          fontSize: "14px",
-                          fontWeight: "600",
-                          color: "#0052CC",
-                          marginBottom: "4px",
-                          display: "flex",
-                          alignItems: "center",
-                          gap: "6px",
+                          display: "block",
+                          padding: "14px 16px",
+                          backgroundColor: "#f8fafc",
+                          borderRadius: "8px",
+                          textDecoration: "none",
+                          border: "1px solid #e2e8f0",
+                          transition: "all 0.3s ease",
+                          cursor: "pointer",
+                        }}
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.backgroundColor = "#e8f0ff";
+                          e.currentTarget.style.borderColor = "#0052CC";
+                          e.currentTarget.style.transform = "translateX(-4px)";
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.backgroundColor = "#f8fafc";
+                          e.currentTarget.style.borderColor = "#e2e8f0";
+                          e.currentTarget.style.transform = "translateX(0)";
                         }}
                       >
-                        <span>→</span>
-                        {s.title}
-                      </div>
-                      <p
-                        style={{
-                          fontSize: "12px",
-                          color: "#64748b",
-                          margin: "0",
-                          lineHeight: "1.4",
-                        }}
-                      >
-                        {s.description.substring(0, 55)}...
-                      </p>
-                    </a>
-                  ))}
+                        <div
+                          style={{
+                            fontSize: "14px",
+                            fontWeight: "600",
+                            color: "#0052CC",
+                            marginBottom: "4px",
+                            display: "flex",
+                            alignItems: "center",
+                            gap: "6px",
+                          }}
+                        >
+                          <span>→</span>
+                          {s.title}
+                        </div>
+                        <p
+                          style={{
+                            fontSize: "12px",
+                            color: "#64748b",
+                            margin: "0",
+                            lineHeight: "1.4",
+                          }}
+                        >
+                          {s.description.substring(0, 55)}...
+                        </p>
+                      </a>
+                    ))}
+                  </div>
                 </div>
               </div>
-            </div>
+            )}
           </div>
         </div>
       </div>
