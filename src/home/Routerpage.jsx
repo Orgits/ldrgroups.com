@@ -40,6 +40,7 @@ import BlogGrid from '../inner/BlogGrid';
 import BlogDetails from '../inner/BlogDetails';
 import BlogDetailsDefault from '../inner/BlogDetailsDefault';
 import ContactUs from '../inner/ContactUs';
+import ServiceDetail from '../inner/ServiceDetail';
 
 
 
@@ -63,6 +64,7 @@ function RouterPage() {
                     <Route path="/home-nine" element={<HomeNine />}></Route>
                     <Route path="/home-ten" element={<HomeTen />}></Route> */}
                     <Route path="/our-service" element={<OurService />}></Route>
+                    <Route path="/our-service/:serviceName" element={<ServiceDetail />}></Route>
                     <Route path="/service-details/:id" element={<OurService />} />
                     <Route path="/service-2" element={<ServiceTwo />}></Route>
                     <Route path="/service-3" element={<ServiceThree />}></Route>
@@ -86,7 +88,6 @@ function RouterPage() {
                     <Route path="/team-details" element={<TeamDetails />}></Route>
                     {/* <Route path="/blog-list" element={<BlogList />}></Route> */}
                     <Route path="/blog-grid" element={<BlogGrid />}></Route>
-                    <Route path="/our-service/:id" element={<OurService />} />
                     {/* <Route path="/blog-details" element={<BlogDetails />}></Route> */}
                     <Route path="/blog/:id" element={<BlogDetails />}></Route>
                     <Route path="/blog-details-default" element={<BlogDetailsDefault />}></Route>

@@ -1,0 +1,278 @@
+
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "Statutory Audit",
+      "slug": "statutory-audit",
+      "description": "Independent and reliable Statutory Audit services in compliance with the Companies Act and applicable regulatory requirements.",
+      "image": "/assets/images/service/Audit and Assurance.png",
+      "mainContent": "At LDR GROUPS, we provide independent and reliable Statutory Audit services in compliance with the Companies Act and applicable regulatory requirements. Our audit approach goes beyond ensuring statutory compliance — we focus on enhancing transparency, building stakeholder confidence, and identifying opportunities for better governance.\n\nWith our statutory audit services, businesses not only meet their legal obligations but also gain actionable insights to improve efficiency and governance.",
+      "servicesInclude": [
+        "Examination of financial statements to ensure true and fair presentation",
+        "Compliance check with the provisions of the Companies Act, 2013 and applicable accounting standards",
+        "Evaluation of internal controls and reporting on deficiencies",
+        "Guidance on strengthening accounting and financial reporting systems",
+        "Certification and reporting as per statutory requirements"
+      ],
+      "whyChooseUs": [
+        "Experienced team of CAs, CS, and CPAs with strong technical expertise",
+        "Transparent and systematic audit methodology",
+        "Industry-specific insights to add value beyond compliance"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Internal Audit",
+      "slug": "internal-audit",
+      "description": "Strengthen internal controls, improve risk management, and enhance operational efficiency with our comprehensive Internal Audit services.",
+      "image": "/assets/images/service/Governance, Risk & Compliance Advisory.png",
+      "mainContent": "At LDR GROUPS, our Internal Audit services are designed to help organizations strengthen their internal controls, improve risk management, and enhance operational efficiency. We don't just review records — we partner with management to identify gaps, recommend solutions, and support sustainable business growth.\n\nOur Internal Audit approach ensures that businesses can safeguard assets, prevent fraud, and achieve their strategic objectives with confidence.",
+      "servicesInclude": [
+        "Review and evaluation of internal control systems",
+        "Assessment of risk management framework",
+        "Process audits for procurement, sales, HR, and other key functions",
+        "Compliance with internal policies and regulatory requirements",
+        "Recommendations for cost savings and efficiency improvements",
+        "Continuous monitoring and reporting for timely decision-making"
+      ],
+      "whyChooseUs": [
+        "Independent and objective review by experienced professionals",
+        "Customized audit programs tailored to your industry and business size",
+        "Practical recommendations to strengthen governance and processes"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Forensic Audit",
+      "slug": "forensic-audit",
+      "description": "Specialized Forensic Audit services to detect fraud, investigate financial irregularities, and prevent future risks.",
+      "image": "/assets/images/service/Frame 33.png",
+      "mainContent": "At LDR GROUPS, we provide specialized Forensic Audit services to help organizations detect fraud, investigate financial irregularities, and prevent future risks. Our forensic experts combine accounting, auditing, and investigative skills to uncover the truth behind complex financial transactions.\n\nOur forensic audits not only uncover issues but also provide actionable insights to minimize risks, improve governance, and restore stakeholder confidence.",
+      "servicesInclude": [
+        "Investigation of suspected fraud, misappropriation, or financial misconduct",
+        "Analysis of accounting records, electronic data, and supporting documents",
+        "Tracing of funds and identification of irregular transactions",
+        "Assistance in litigation support and dispute resolution",
+        "Recommendations for strengthening anti-fraud controls and compliance systems"
+      ],
+      "whyChooseUs": [
+        "Team of highly skilled CAs, CS, and forensic experts",
+        "Use of modern tools and data analytics for accurate results",
+        "Confidential and objective approach to sensitive investigations"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Due Diligence",
+      "slug": "due-diligence",
+      "description": "Comprehensive Due Diligence services to help investors and business partners make informed decisions with confidence.",
+      "image": "/assets/images/service/Frame 34.png",
+      "content": "At LDR GROUPS, we offer comprehensive Due Diligence services to help investors, acquirers, and business partners make informed decisions with confidence. Whether it's a merger, acquisition, joint venture, or strategic investment, our due diligence process ensures transparency, accuracy, and risk mitigation.\n\nOur Due Diligence services cover:\n• Financial Due Diligence: Review of financial statements, cash flows, and accounting practices\n• Tax Due Diligence: Verification of tax compliance, liabilities, and potential exposures\n• Legal & Compliance Review: Examination of statutory records, regulatory filings, and corporate governance practices\n• Operational Due Diligence: Assessment of processes, systems, and internal controls\n• Risk Assessment: Identification of red flags and potential deal-breakers\n\nWhy choose us?\n• Independent and unbiased reporting for clear decision-making\n• Detailed analysis tailored to your transaction requirements\n• Expert guidance to negotiate better deals and minimize risks\n\nOur due diligence services empower clients with the right insights, enabling them to safeguard investments and achieve long-term success."
+    },
+    {
+      "id": 5,
+      "title": "Risk Assessment",
+      "slug": "risk-assessment",
+      "description": "Comprehensive Risk Assessment services to proactively identify, evaluate, and manage potential threats to business operations.",
+      "image": "/assets/images/service/Frame 39.png",
+      "content": "At LDR GROUPS, we provide comprehensive Risk Assessment services to help organizations proactively identify, evaluate, and manage potential threats to their business operations. Our approach is designed to safeguard businesses from financial, operational, compliance, and strategic risks while enhancing resilience and long-term sustainability.\n\nOur Risk Assessment services include:\n• Identification of key risk areas across business functions\n• Evaluation of internal controls and governance mechanisms\n• Analysis of financial, regulatory, and operational vulnerabilities\n• Industry-specific risk benchmarking and impact assessment\n• Recommendations for mitigation strategies and business continuity planning\n\nWhy choose us?\n• Expertise across diverse industries with practical insights\n• Structured methodology ensuring thorough risk coverage\n• Actionable solutions tailored to your business environment\n\nBy partnering with us, businesses not only mitigate risks but also strengthen governance, improve decision-making, and achieve greater confidence in pursuing growth opportunities."
+    },
+    {
+      "id": 6,
+      "title": "Income Tax Litigation",
+      "slug": "income-tax-litigation",
+      "description": "Expert representation and advisory services in all matters relating to Income Tax Litigation at every stage.",
+      "image": "/assets/images/service/Frame 42.png",
+      "content": "At LDR GROUPS, we provide expert representation and advisory services in all matters relating to Income Tax Litigation. Our experienced team assists clients in managing disputes with tax authorities at every stage — from assessment to appellate levels — ensuring compliance, clarity, and effective resolution.\n\nOur Income Tax Litigation services include:\n• Drafting and filing of appeals before CIT(A), ITAT, High Court, and Supreme Court\n• Representation during assessment and reassessment proceedings\n• Handling of penalty and prosecution matters under the Income Tax Act\n• Advisory on complex tax issues and interpretation of provisions\n• Assistance in advance ruling and settlement commission matters\n\nWhy choose us?\n• Experienced tax professionals with deep litigation expertise\n• Strong representation backed by research-driven strategies\n• End-to-end support — from filing to final resolution\n\nWith our litigation support, businesses and individuals can confidently address disputes, minimize exposure to tax risks, and safeguard their financial interests."
+    },
+    {
+      "id": 7,
+      "title": "Corporate Law Disputes",
+      "slug": "corporate-law-disputes",
+      "description": "Expert advisory and representation in Corporate Law Disputes, helping businesses resolve conflicts efficiently.",
+      "image": "/assets/images/service/Corporate Law.png",
+      "content": "At LDR GROUPS, we provide expert advisory and representation in Corporate Law Disputes, helping businesses resolve conflicts related to governance, shareholders, directors, and compliance matters. Our team ensures that disputes are managed efficiently while minimizing disruption to operations.\n\nOur Corporate Law Disputes services include:\n• Handling shareholder and director disputes\n• Resolution of conflicts arising from corporate governance issues\n• Advisory on compliance and regulatory matters under the Companies Act\n• Representation before NCLT, NCLAT, and other tribunals\n• Support in mediation, negotiation, and settlement processes\n\nWhy choose us?\n• Experienced professionals well-versed in corporate laws and regulations\n• Practical solutions tailored to business objectives\n• Strong representation and proactive dispute management\n\nBy leveraging our expertise, companies can resolve disputes effectively, ensure compliance, and maintain smooth corporate operations."
+    },
+    {
+      "id": 8,
+      "title": "Transfer Pricing",
+      "slug": "transfer-pricing",
+      "description": "Comprehensive Transfer Pricing services to ensure compliance with international and domestic regulations while optimizing tax efficiency.",
+      "image": "/assets/images/service/TP Study & Report.png",
+      "content": "At LDR GROUPS, we provide comprehensive Transfer Pricing services to ensure compliance with international and domestic regulations while optimizing tax efficiency. Our team helps businesses structure cross-border transactions and documentation in line with arm's length principles.\n\nOur Transfer Pricing services include:\n• Determination of arm's length pricing for related-party transactions\n• Preparation and maintenance of transfer pricing documentation\n• Benchmarking analysis and industry comparisons\n• Advisory on safe harbor rules and dispute resolution\n• Representation before tax authorities during transfer pricing audits\n\nWhy choose us?\n• Experienced team with expertise in domestic and international transfer pricing regulations\n• Methodical and research-driven approach to minimize compliance risks\n• Practical solutions that align with your business strategy and financial objectives\n\nWith our Transfer Pricing services, businesses can ensure compliance, mitigate transfer pricing risks, and support transparent cross-border operations."
+    },
+    {
+      "id": 9,
+      "title": "DTAA (Double Taxation Avoidance Agreement)",
+      "slug": "dtaa-double-taxation-avoidance-agreement",
+      "description": "Specialized advisory on DTAA to help avoid being taxed twice on the same income in different countries.",
+      "image": "/assets/images/service/Frame 43.png",
+      "content": "At LDR GROUPS, we provide specialized advisory on DTAA to help businesses and individuals avoid being taxed twice on the same income in different countries. Our services ensure compliance with international tax treaties while optimizing tax liability.\n\nOur DTAA services include:\n• Advisory on applicability of DTAA provisions for cross-border income\n• Assistance in claiming tax relief and exemptions under DTAA\n• Guidance on withholding tax and foreign tax credit\n• Representation before tax authorities for DTAA-related disputes\n• Structuring international transactions to ensure tax efficiency\n\nWhy choose us?\n• Expert team with deep knowledge of international tax laws and treaties\n• Practical solutions to maximize tax savings and compliance\n• Support throughout the entire DTAA compliance process\n\nBy leveraging our DTAA expertise, clients can confidently manage cross-border taxation, reduce their tax burden, and ensure full legal compliance."
+    },
+    {
+      "id": 10,
+      "title": "Cross-Border Taxation",
+      "slug": "cross-border-taxation",
+      "description": "Expert advisory on Cross-Border Taxation to navigate complex international tax rules and optimize tax efficiency.",
+      "image": "/assets/images/service/FEMA Advisory.png",
+      "content": "At LDR GROUPS, we provide expert advisory on Cross-Border Taxation to help businesses and individuals navigate complex international tax rules. Our services ensure compliance while optimizing tax efficiency for global transactions and operations.\n\nOur Cross-Border Taxation services include:\n• Advisory on taxation of foreign income, investments, and remittances\n  Example: Tax implications for an Indian company receiving royalty income from a US-based subsidiary\n• Guidance on compliance with FEMA, RBI, and Indian tax regulations\n  Example: Structuring repatriation of profits for an Indian startup receiving FDI from multiple countries\n• Structuring cross-border transactions to minimize tax exposure\n  Example: Tax-efficient payment of service fees to foreign consultants or vendors\n• Assistance with foreign tax credits and treaty benefits\n  Example: Claiming credit for taxes paid in Singapore on income earned there by an Indian resident\n• Representation before tax authorities in cross-border disputes\n\nWhy choose us?\n• Experienced professionals with expertise in international taxation and compliance\n• Practical, tailored solutions to optimize tax outcomes\n• End-to-end support for global business operations\n\nWith our Cross-Border Taxation services, clients can confidently manage international tax obligations, mitigate risks, and achieve strategic business goals."
+    },
+    {
+      "id": 11,
+      "title": "Expat Taxation",
+      "slug": "expat-taxation",
+      "description": "Specialized Expat Taxation services for individuals working abroad or relocating to India.",
+      "image": "/assets/images/service/FEMA Compliances and Compounding.png",
+      "content": "At LDR GROUPS, we provide specialized Expat Taxation services for individuals working abroad or relocating to India. Our advisory ensures compliance with Indian and foreign tax laws while optimizing tax efficiency.\n\nOur Expat Taxation services include:\n• Income tax filing and advisory for expatriates in India and Indians working overseas\n• Guidance on claiming tax exemptions, deductions, and foreign tax credits\n• Structuring relocation, compensation, and benefits packages to minimize tax liability\n• Compliance with FEMA and RBI regulations on foreign remittances and repatriation\n• Representation before Indian tax authorities in case of notices or disputes\n\nWhy choose us?\n• Experienced professionals with deep understanding of global taxation rules\n• Practical, tailored solutions for expatriates and multinational employees\n• End-to-end support from planning and filing to dispute resolution\n\nWith our Expat Taxation services, expatriates and international assignees can stay compliant, reduce tax exposure, and manage their cross-border finances efficiently."
+    },
+    {
+      "id": 12,
+      "title": "Foreign Investment Compliance",
+      "slug": "foreign-investment-compliance",
+      "description": "Expert advisory on Foreign Investment Compliance to help businesses adhere to Indian regulations while making cross-border investments.",
+      "image": "/assets/images/service/FCRA Registration & Renewal.png",
+      "mainContent": "At LDR GROUPS, we provide expert advisory on Foreign Investment Compliance to help businesses and investors adhere to Indian regulations while making cross-border investments. Our services ensure smooth operations and full compliance with regulatory requirements.\n\nWith our Foreign Investment Compliance services, businesses and investors can confidently manage cross-border transactions while ensuring full regulatory compliance.",
+      "servicesInclude": [
+        "Advisory on compliance with FEMA and RBI regulations",
+        "Guidance on FDI policy requirements for various sectors",
+        "Assistance with approvals, filings, and reporting for foreign investments",
+        "Structuring transactions to meet regulatory standards and minimize risk",
+        "Support during audits and regulatory inspections"
+      ],
+      "whyChooseUs": [
+        "Experienced professionals with in-depth knowledge of foreign investment laws",
+        "Practical solutions for smooth and compliant investment operations",
+        "End-to-end support from planning and structuring to reporting and compliance"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Company Formation",
+      "slug": "company-formation",
+      "description": "End-to-end assistance in Company Formation to help entrepreneurs establish a strong legal foundation in India.",
+      "image": "/assets/images/service/Incorporation of Company in India.png",
+      "content": "At LDR GROUPS, we offer end-to-end assistance in Company Formation to help entrepreneurs and businesses establish a strong legal foundation in India. We simplify the incorporation process, ensuring compliance with the Companies Act, 2013, and all related regulatory requirements.\n\nOur Company Formation services include:\n• Advisory on choosing the right business structure (Private Limited, Public Limited, Section 8, or One Person Company)\n• Name approval and incorporation with the Ministry of Corporate Affairs (MCA)\n• Drafting and filing of Memorandum of Association (MOA) and Articles of Association (AOA)\n• Obtaining Digital Signature Certificates (DSC) and Director Identification Numbers (DIN)\n• PAN, TAN, and GST registration support\n• Post-incorporation compliance and advisory for smooth operations\n\nWhy choose us?\n• Experienced professionals with in-depth knowledge of Indian corporate laws\n• Hassle-free and time-bound incorporation process\n• One-stop support from company setup to ongoing compliance\n\nWith our Company Formation services, businesses can start their journey with confidence, backed by strong legal and regulatory support."
+    },
+    {
+      "id": 14,
+      "title": "LLP Registration",
+      "slug": "llp-registration",
+      "description": "Complete assistance in LLP Registration, offering businesses the flexibility of a partnership with limited liability benefits.",
+      "image": "/assets/images/service/Limited Liability Partnership.png",
+      "content": "At LDR GROUPS, we provide complete assistance in LLP (Limited Liability Partnership) Registration, offering businesses the flexibility of a partnership with the benefit of limited liability. LLPs are ideal for professionals, startups, and small businesses looking for a cost-effective and compliance-friendly business structure.\n\nOur LLP Registration services include:\n• Advisory on LLP structure and partner arrangements\n• Name approval and incorporation with the Ministry of Corporate Affairs (MCA)\n• Drafting and filing of LLP Agreement\n• Obtaining Digital Signature Certificates (DSC) and Designated Partner Identification Numbers (DPIN)\n• PAN, TAN, and GST registration support\n• Advisory on annual filings and LLP compliance requirements\n\nWhy choose us?\n• In-depth expertise in LLP laws and compliance\n• Seamless and hassle-free registration process\n• Customized solutions to meet partner and business needs\n\nWith our LLP Registration services, businesses can enjoy operational flexibility, reduced compliance burden, and the security of limited liability."
+    },
+    {
+      "id": 15,
+      "title": "ROC Compliances",
+      "slug": "roc-compliances",
+      "description": "Complete support for ROC Compliances, ensuring full compliance with the Companies Act and LLP Act requirements.",
+      "image": "/assets/images/service/Regulatory Compliance for Business.png",
+      "content": "At LDR GROUPS, we provide complete support for ROC (Registrar of Companies) Compliances, ensuring that your business remains fully compliant with the requirements of the Companies Act, 2013 and LLP Act. Timely and accurate filings not only help avoid penalties but also enhance corporate credibility.\n\nOur ROC Compliance services include:\n• Preparation and filing of annual returns and financial statements (AOC-4, MGT-7, etc.)\n• Maintenance of statutory registers and records\n• Filing of resolutions, agreements, and event-based compliances (e.g., change of directors, shareholding, registered office)\n• Advisory on board meetings, general meetings, and statutory disclosures\n• Compliance review and secretarial audit support for companies and LLPs\n\nWhy choose us?\n• Expert team of Company Secretaries and Chartered Accountants\n• Proactive approach to ensure timely filings and error-free compliance\n• End-to-end solutions for both annual and event-based compliances\n\nWith our ROC Compliance services, businesses can focus on growth while we manage their statutory obligations seamlessly."
+    },
+    {
+      "id": 16,
+      "title": "Business Restructuring",
+      "slug": "business-restructuring",
+      "description": "Strategic advisory and execution support for Business Restructuring to achieve efficiency, compliance, and growth.",
+      "image": "/assets/images/service/Registration of Section 8 Company.png",
+      "content": "At LDR GROUPS, we provide strategic advisory and execution support for Business Restructuring, helping companies realign their operations, structure, and ownership to achieve efficiency, compliance, and growth. Our focus is to deliver solutions that enhance business value while ensuring regulatory adherence.\n\nOur Business Restructuring services include:\n• Mergers, demergers, and amalgamations\n• Acquisition structuring and buyouts\n• Capital restructuring, including reduction or reorganization of share capital\n• Conversion of business entities (e.g., partnership to LLP, private to public company)\n• Advisory on corporate debt restructuring and revival schemes\n• Assistance with regulatory approvals from NCLT, ROC, SEBI, RBI, and other authorities\n\nWhy choose us?\n• Experienced professionals with multidisciplinary expertise in tax, legal, and finance\n• Comprehensive solutions tailored to client needs and industry requirements\n• End-to-end support from planning and structuring to regulatory compliance and execution\n\nWith our Business Restructuring services, organizations can strengthen governance, improve operational efficiency, and position themselves for long-term sustainable growth."
+    },
+    {
+      "id": 17,
+      "title": "Corporate Governance",
+      "slug": "corporate-governance",
+      "description": "Implement strong Corporate Governance practices that promote transparency, accountability, and ethical decision-making.",
+      "image": "/assets/images/service/Registration of Societies-Trust.png",
+      "content": "At LDR GROUPS, we help organizations implement strong Corporate Governance practices that promote transparency, accountability, and ethical decision-making. Effective governance not only ensures compliance with regulatory requirements but also builds stakeholder trust and long-term sustainability.\n\nOur Corporate Governance services include:\n• Advisory on compliance with the Companies Act, SEBI, and other regulatory frameworks\n• Designing and implementing governance structures, policies, and procedures\n• Support in conducting board and committee meetings with proper documentation\n• Establishing internal controls and risk management frameworks\n• Independent evaluation of governance practices and compliance audits\n\nWhy choose us?\n• Team of experienced Chartered Accountants, Company Secretaries, and CPAs\n• Practical governance solutions tailored to business needs\n• Focus on improving transparency, efficiency, and accountability\n\nWith our Corporate Governance services, companies can enhance decision-making, improve investor confidence, and ensure sustainable business growth."
+    },
+    {
+      "id": 18,
+      "title": "NRI Tax Filing",
+      "slug": "nri-tax-filing",
+      "description": "Simplify NRI tax filing and ensure full compliance with Indian laws while maximizing available benefits.",
+      "image": "/assets/images/service/NRI Tax Compliance.png",
+      "content": "Managing taxes from abroad can be complex. At LDR GROUPS, we simplify NRI tax filing and ensure full compliance with Indian laws while maximizing benefits available under the Income Tax Act.\n\nWhy Do NRIs Need to File Returns in India?\nNRIs are required to file tax returns in India if they:\n• Earn income in India above ₹2.5 lakh in a financial year.\n• Have capital gains from property, shares, or mutual funds.\n• Wish to claim a refund of excess TDS deducted.\n\nWhat Income is Taxable for NRIs?\nNRIs are taxed only on income earned or received in India, such as:\n• Salary received in India.\n• Rental income from house property.\n• Interest on NRO deposits and securities.\n• Capital gains on sale of property, shares, or investments.\n• Income earned outside India is not taxable for NRIs.\n\nBenefits & Deductions Available\n• Tax relief under DTAA (Double Taxation Avoidance Agreement).\n• Deductions under 80C, 80D, 80E, Section 24(b), etc.\n• Tax-free interest on NRE and FCNR deposits.\n• Lower/Nil TDS certificate assistance to reduce upfront tax liability.\n\nHow We Help\n✅ Assess your residential status and tax liability.\n✅ Compute income & apply eligible deductions.\n✅ Optimize tax exposure with DTAA benefits.\n✅ File the right ITR (ITR-2/3) on time.\n✅ Assist in TDS refund claims & repatriation of funds abroad.\n\nWhy Choose Us?\n• Expertise in NRI taxation with years of experience.\n• End-to-end support – from tax planning to compliance.\n• Hassle-free filing with maximum refund optimization.\n• Quick turnaround and reliable advisory.\n\nSimplify your NRI tax filing with expert guidance."
+    },
+    {
+      "id": 19,
+      "title": "Foreign Remittance Compliance",
+      "slug": "foreign-remittance-compliance",
+      "description": "Ensure your foreign remittances are compliant, seamless, and tax-efficient under FEMA regulations.",
+      "image": "/assets/images/service/Remittance of Money by NRI from India.png",
+      "content": "With globalization, cross-border transactions have become routine for individuals and businesses. However, every remittance from India is strictly regulated under FEMA (Foreign Exchange Management Act) and monitored by the Reserve Bank of India (RBI). At LDR GROUPS, we ensure your foreign remittances are compliant, seamless, and tax-efficient.\n\nWhy is Foreign Remittance Compliance Important?\nImproper or non-compliant remittances may lead to:\n• Penalties under FEMA regulations.\n• Delay in fund transfers.\n• Rejection of transactions by banks or authorities.\n• Unnecessary tax implications.\n\nOur Foreign Remittance Compliance Services\nWe provide end-to-end assistance in:\n• Form 15CA & 15CB Certification – Tax clearance certificates for remittances.\n• Verification of TDS applicability on foreign payments.\n• Advisory on FEMA & RBI guidelines for outward remittances.\n• Assistance with Liberalized Remittance Scheme (LRS) transactions.\n• End-to-end documentation support to avoid banking hurdles.\n• Tax optimization by analyzing DTAA benefits before remittance.\n\nCommon Transactions Covered\n• Remittance for investments abroad.\n• Payment of tuition and living expenses for students.\n• Repatriation of NRO account funds.\n• Purchase of property outside India.\n• Payment of professional/consulting fees to foreign service providers.\n\nWhy Choose Us?\n• Team of CAs, CS, and FEMA experts with cross-border experience.\n• Quick certification turnaround for urgent transactions.\n• Error-free documentation to ensure smooth bank processing.\n• Comprehensive compliance advisory for individuals and corporates."
+    },
+    {
+      "id": 20,
+      "title": "Property Taxation for NRIs",
+      "slug": "property-taxation-for-nris",
+      "description": "Complete property taxation services for NRIs to ensure compliance while optimizing tax efficiency.",
+      "image": "/assets/images/service/Reports & Certification.png",
+      "content": "Owning property in India is one of the most common forms of investment by NRIs. However, taxation on property income, sale, and repatriation of funds involves complex rules under the Income Tax Act and FEMA regulations. At LDR GROUPS, we provide complete property taxation services for NRIs to ensure compliance while optimizing tax efficiency.\n\nKey Aspects of NRI Property Taxation\n\nRental Income\n• Rental income from property in India is taxable in India, irrespective of NRI's residential status.\n• Standard deduction of 30%, municipal taxes, and home loan interest are allowed.\n• TDS @ 30% is deducted by the tenant while paying rent to an NRI.\n\nCapital Gains on Sale of Property\n• Short-Term Capital Gains (STCG): Taxed at applicable slab rates if property is sold within 24 months of purchase.\n• Long-Term Capital Gains (LTCG): Taxed at 20% with indexation after 24 months.\n• Benefits under Section 54/54EC/54F available for reinvestment in property or specified bonds.\n\nRepatriation of Sale Proceeds\n• Funds can be repatriated outside India through NRO accounts after tax clearance.\n• Requires Form 15CA/15CB certification for remittance.\n\nWealth & Inheritance Aspects\n• No wealth tax in India.\n• Inherited property is not taxed at the time of inheritance, but taxation arises when sold.\n\nOur Services for NRIs\n• Computation of rental income and tax filing.\n• Guidance on capital gains tax and reinvestment planning.\n• Assistance in obtaining Lower/Nil TDS Certificates.\n• FEMA & RBI compliance for repatriation of funds.\n• End-to-end documentation (Form 15CA/15CB, TDS compliance, DSC filing).\n• Advisory on DTAA benefits to avoid double taxation.\n\nWhy Choose Us?\n• Specialized expertise in NRI property taxation.\n• One-stop solution covering income tax + FEMA compliance.\n• Quick repatriation support with error-free certifications.\n• Strategic tax planning to minimize liabilities."
+    },
+    {
+      "id": 21,
+      "title": "Bookkeeping Services",
+      "slug": "bookkeeping-services",
+      "description": "Professional bookkeeping services to maintain error-free records, ensure compliance, and make informed financial decisions.",
+      "image": "/assets/images/service/Accounts Outsourcing.png",
+      "content": "Accurate and timely bookkeeping is the foundation of strong financial management. At LDR GROUPS, we provide professional bookkeeping services that help businesses maintain error-free records, ensure compliance, and make informed financial decisions. Whether you are a startup, SME, or growing enterprise, we act as your extended finance team.\n\nWhy Bookkeeping Matters?\n• Keeps your financial data organized and audit-ready.\n• Ensures accurate tax filings and compliance with laws.\n• Provides insights for better decision-making and cash flow management.\n• Saves time and resources so you can focus on business growth.\n\nOur Bookkeeping Services\nWe offer end-to-end bookkeeping support tailored to your business needs:\n• Recording & Classification of Transactions – Day-to-day accounting of sales, purchases, expenses, and receipts.\n• Bank Reconciliation – Regular reconciliation of bank accounts with books of accounts.\n• Accounts Payable & Receivable Management – Tracking invoices, vendor payments, and customer collections.\n• General Ledger Maintenance – Error-free ledgers for accurate reporting.\n• Financial Reporting – Preparation of trial balance, profit & loss, and balance sheet.\n• Compliance-Ready Accounts – Books maintained in line with Indian tax and regulatory requirements.\n\nWhy Choose Us?\n• Experienced team of Chartered Accountants and professionals.\n• Expertise in cloud-based accounting tools (Zoho Books, QuickBooks, Tally, etc.).\n• Cost-effective outsourcing with flexible engagement models.\n• Accuracy, confidentiality, and compliance guaranteed.\n• Scalable solutions for startups, SMEs, and enterprises."
+    },
+    {
+      "id": 22,
+      "title": "Payroll Processing",
+      "slug": "payroll-processing",
+      "description": "Comprehensive payroll processing solutions ensuring timely payments, statutory compliance, and employee satisfaction.",
+      "image": "/assets/images/service/Outsourcing Support Service.png",
+      "content": "Managing payroll is more than just calculating salaries — it involves compliance, accuracy, and employee satisfaction. At LDR GROUPS, we offer comprehensive payroll processing solutions that ensure your employees are paid on time, statutory deductions are managed correctly, and compliance is never compromised.\n\nWhy Payroll Processing Matters?\n• Ensures timely and accurate salary disbursement.\n• Maintains compliance with PF, ESI, TDS, and Labour Laws.\n• Reduces administrative burden for businesses.\n• Enhances employee trust and organizational efficiency.\n\nOur Payroll Processing Services\nWe provide end-to-end payroll support that covers:\n• Salary Structuring & Computation – Gross pay, allowances, deductions, and net pay calculation.\n• Statutory Compliance – PF, ESI, PT, TDS, and Labour Welfare Fund deductions and filings.\n• Payslip Generation & Distribution – Secure and timely payslips for employees.\n• Tax Planning for Employees – Assistance in investment declarations and exemptions.\n• Leave & Attendance Integration – Linking payroll with attendance systems for accuracy.\n• Full & Final Settlements – Smooth exit process for resigning employees.\n• Compliance Reports – Monthly/quarterly reports for management review.\n\nWhy Choose Us?\n• Accuracy & confidentiality ensured with secure systems.\n• Expertise in cloud payroll and HR solutions.\n• Scalable services for startups, SMEs, and corporates.\n• Dedicated support for both employer and employee queries.\n• Cost-effective outsourcing with timely delivery."
+    },
+    {
+      "id": 23,
+      "title": "Virtual CFO Services",
+      "slug": "virtual-cfo-services",
+      "description": "Strategic financial expertise of an experienced CFO without the cost of hiring in-house.",
+      "image": "/assets/images/service/Setting Up NGOs.png",
+      "content": "In today's competitive business environment, financial expertise is crucial for growth — but not every organization can afford a full-time CFO. At LDR GROUPS, we offer Virtual CFO Services that bring you the strategic insights of an experienced CFO without the cost of hiring in-house. We act as your trusted financial partner, helping you manage, monitor, and grow your business with confidence.\n\nWhy Virtual CFO Services?\n• Access to high-level financial expertise at a fraction of the cost.\n• Strategic guidance for startups, SMEs, and growing businesses.\n• Support in financial planning, compliance, and investor relations.\n• Enables founders and business owners to focus on operations while we handle finance.\n\nOur Virtual CFO Services\nWe provide a wide spectrum of financial management and advisory services, including:\n• Financial Planning & Budgeting – Strategic planning to optimize resources and achieve growth targets.\n• Cash Flow & Working Capital Management – Ensuring liquidity and efficiency.\n• Accounting & Compliance Oversight – Review of accounts, compliance monitoring, and internal controls.\n• Investor Relations & Fundraising Support – Assistance with pitch decks, financial modeling, and due diligence.\n• Management Reporting – Monthly/quarterly MIS, dashboards, and performance reviews.\n• Risk Management & Governance – Identifying financial risks and implementing safeguards.\n• Tax & Regulatory Advisory – Ensuring compliance with Income Tax, GST, and FEMA regulations.\n\nWhy Choose Us?\n• Experienced team of CAs, CS, and financial strategists.\n• Customizable engagement models based on your business needs.\n• Hands-on support for startups, SMEs, and family businesses.\n• Focus on both compliance and long-term strategy.\n• Proven expertise in multi-sector industries."
+    },
+    {
+      "id": 24,
+      "title": "Personal Tax Filing",
+      "slug": "personal-tax-filing",
+      "description": "Make personal tax filing simple, accurate, and stress-free while maximizing tax savings and ensuring compliance.",
+      "image": "/assets/images/service/Start Up India Services.png",
+      "content": "Filing income tax returns can be confusing with ever-changing rules, deductions, and compliance requirements. At LDR GROUPS, we make personal tax filing simple, accurate, and stress-free. Whether you are a salaried individual, self-employed professional, or investor, our experts ensure maximum tax savings while keeping you fully compliant.\n\nWhy Personal Tax Filing Matters?\n• Avoid penalties and notices by filing correctly and on time.\n• Claim eligible deductions and exemptions to save tax.\n• Get faster refunds with accurate filings.\n• Maintain a clean tax record for loans, visas, and financial credibility.\n\nOur Personal Tax Filing Services\nWe provide end-to-end support for individuals, including:\n• Filing of ITR for Salaried, Self-Employed, and Investors.\n• Computation of Income from salary, house property, capital gains, business/profession, and other sources.\n• Tax Planning & Optimization – Claim deductions under 80C, 80D, HRA, LTA, etc.\n• Capital Gains Advisory – Guidance on sale of shares, mutual funds, and property.\n• Foreign Income & DTAA Relief – Tax compliance for NRIs and residents with overseas income.\n• TDS Reconciliation – Verification of Form 16/26AS and rectification of mismatches.\n• Advance Tax & Refunds – Assistance with tax liability computation and refund claims.\n\nWhy Choose Us?\n• Experienced Chartered Accountants with deep tax expertise.\n• Personalized guidance for each taxpayer's unique situation.\n• Hassle-free filing with quick turnaround.\n• Assistance in handling tax notices, scrutiny, and assessments.\n• Reliable advisory for NRIs, senior citizens, and high-net-worth individuals."
+    },
+    {
+      "id": 25,
+      "title": "Corporate Tax Filing",
+      "slug": "corporate-tax-filing",
+      "description": "Comprehensive corporate tax filing services to ensure full compliance while optimizing tax efficiency.",
+      "image": "/assets/images/service/Certification and Attestation.png",
+      "content": "Corporate taxation in India is governed by complex laws, frequent regulatory changes, and strict compliance requirements. At LDR GROUPS, we provide comprehensive corporate tax filing services to ensure your company remains fully compliant while optimizing tax efficiency. From startups to large corporations, we deliver tailored solutions that align with your business goals.\n\nWhy Corporate Tax Filing Matters?\n• Mandatory compliance with the Income Tax Act, 1961 and related regulations.\n• Avoidance of penalties, interest, and litigation due to incorrect filings.\n• Strategic tax planning helps reduce the overall tax burden.\n• Builds investor and stakeholder confidence with transparent reporting.\n\nOur Corporate Tax Filing Services\nWe offer end-to-end corporate tax solutions, including:\n• Computation of Total Income & Tax Liability as per applicable laws.\n• Filing of ITR for Companies (ITR-6 / ITR-7, as applicable).\n• Minimum Alternate Tax (MAT) & AMT Compliance.\n• TDS/TCS Reconciliation with Form 26AS and GST returns.\n• Advisory on Deductions & Incentives available under Income Tax Act.\n• Transfer Pricing Compliance for international transactions.\n• Assistance with Tax Assessments, Appeals & Litigation.\n• Advance Tax & Quarterly Filings for accurate compliance.\n\nWhy Choose Us?\n• Team of experienced Chartered Accountants and tax professionals.\n• Industry-specific expertise for manufacturing, services, IT, real estate, startups, and more.\n• End-to-end support covering compliance, advisory, and litigation.\n• Efficient and accurate filings with quick turnaround.\n• Strategic advisory to minimize tax risks and maximize savings."
+    },
+    {
+      "id": 26,
+      "title": "GST Compliance",
+      "slug": "gst-compliance",
+      "description": "End-to-end GST compliance services to simplify tax management and ensure accurate compliance.",
+      "image": "/assets/images/service/Goods and Services Tax (GST).png",
+      "content": "The Goods and Services Tax (GST) regime has transformed the way businesses in India operate. With frequent changes in rules, multiple return filings, and strict deadlines, ensuring accurate GST compliance is crucial for avoiding penalties and maintaining smooth operations. At LDR GROUPS, we provide end-to-end GST compliance services to simplify tax management for your business.\n\nWhy GST Compliance Matters?\n• Non-compliance may lead to heavy penalties and interest.\n• Input Tax Credit (ITC) can be denied if returns are not filed accurately.\n• GST compliance directly impacts working capital and cash flow.\n• Ensures business credibility with clients, vendors, and authorities.\n\nOur GST Compliance Services\nWe provide complete GST solutions tailored to your business needs:\n• GST Registration & Amendments – Assistance in obtaining and updating GSTIN.\n• GST Return Filing – Timely filing of GSTR-1, GSTR-3B, GSTR-9, and other returns.\n• Input Tax Credit (ITC) Reconciliation – Matching purchase data with GSTR-2A/2B to avoid ITC loss.\n• E-Invoicing & E-Way Bill Compliance – Ensuring error-free generation and reporting.\n• GST Advisory & Tax Planning – Structuring transactions to minimize GST impact.\n• GST Refunds – Assistance with refund claims on exports, inverted duty, or excess tax paid.\n• Representation before GST Authorities – Handling assessments, audits, and notices.\n\nWhy Choose Us?\n• Team of GST experts and Chartered Accountants with in-depth knowledge.\n• Proactive compliance monitoring to avoid last-minute issues.\n• Expertise across multiple industries – manufacturing, trading, IT, real estate, and services.\n• Seamless integration with your accounting systems for accurate filings.\n• End-to-end support from registration to litigation."
+    },
+    {
+      "id": 27,
+      "title": "Virtual Office Services",
+      "slug": "virtual-office-services",
+      "description": "Cost-effective Virtual Office solutions for startups, SMEs, and growing enterprises without physical space costs.",
+      "image": "/assets/images/service/STPI Related Services.png",
+      "content": "In today's digital world, businesses no longer need a physical office to establish their presence. A Virtual Office allows you to register your company at a premium business address, access essential office facilities, and stay compliant — without the high costs of renting or maintaining physical space. At LDR GROUPS, we provide Virtual Office solutions designed for startups, SMEs, and growing enterprises.\n\nWhy Choose a Virtual Office?\n• Cost-effective alternative to renting or leasing office space.\n• Legal compliance for GST registration, company incorporation, and ROC filings.\n• Builds professional credibility with a recognized business address.\n• Enables remote working while maintaining a corporate identity.\n• Convenient for freelancers, NRIs, and e-commerce businesses.\n\nOur Virtual Office Services\nWe offer complete solutions to support your business remotely:\n• Premium Business Address – Use our address for company registration, GST, ROC, and mailing purposes.\n• Mail Handling & Forwarding – Receive, manage, and forward important business correspondence.\n• Dedicated Phone & Reception Services – Enhance your corporate image with professional call handling.\n• GST & Company Registration Support – Ensure your business stays compliant with local regulations.\n• Meeting Room Access (Optional) – Book professional spaces for client meetings when required.\n• Flexibility & Scalability – Upgrade to shared or dedicated office space as your business grows.\n\nWhy LDR Corporate Solutions?\n• Trusted by entrepreneurs, startups, and corporates.\n• Central and compliant office locations for official registrations.\n• Affordable pricing with no hidden costs.\n• Backed by a team of professionals for legal and tax compliance support.\n• One-stop solution combining virtual office + accounting + compliance services."
+    },
+    {
+      "id": 28,
+      "title": "Resident Director Services",
+      "slug": "resident-director-services",
+      "description": "Resident Director Services to ensure smooth company incorporation and ongoing compliance for foreign companies.",
+      "image": "/assets/images/service/Sez Related Services.png",
+      "content": "According to the Companies Act, 2013, every company incorporated in India must have at least one Resident Director — a person who has stayed in India for a minimum of 182 days during the previous calendar year. For foreign companies and startups entering India, fulfilling this requirement can be challenging.\nAt LDR GROUPS, we provide Resident Director Services to ensure smooth company incorporation and ongoing compliance, helping foreign investors and businesses establish their presence in India seamlessly.\n\nWhy Resident Director Services?\n• Mandatory requirement under Indian corporate law.\n• Ensures valid company incorporation and ROC compliance.\n• Facilitates smooth communication with regulatory authorities.\n• Helps foreign companies operate without delays or legal hurdles.\n\nOur Resident Director Services\nWe provide end-to-end assistance with:\n• Appointing a qualified Resident Director in compliance with Indian laws.\n• Ensuring statutory compliance with ROC and regulatory authorities.\n• Maintaining confidentiality & integrity of company affairs.\n• Support in Board Meetings & Filings – Signing necessary forms, resolutions, and documents.\n• Liaison with Authorities – Assisting in communication with banks, ROC, and government bodies.\n• Corporate Governance Oversight – Ensuring the company operates within legal frameworks.\n\nWhy Choose Us?\n• Experienced panel of professionals available as Resident Directors.\n• Complete confidentiality and professionalism in handling company matters.\n• Support not just for incorporation, but also for ongoing compliance and governance.\n• One-stop solution covering company formation, taxation, FEMA, and compliance for foreign businesses."
+    }
+  ]
+}

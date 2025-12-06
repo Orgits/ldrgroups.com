@@ -9,7 +9,7 @@ function ContactForm() {
                     <div className="row align-items-center g-0">
                         <div className="col-lg-4 col-md-12 col-sm-12 col-12">
                             <div className="contact-image-one">
-                                <img src="assets/images/contact/01.jpg" alt="" />
+                                <img src="/assets/images/contact/01.jpg" alt="" />
                             </div>
                         </div>
                         <div className="col-lg-8 col-md-12 col-sm-12 col-12">
