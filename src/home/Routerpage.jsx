@@ -85,7 +85,7 @@ function RouterPage() {
                     <Route path="/team-style-3" element={<TeamThree />}></Route>
                     <Route path="/team-style-4" element={<TeamFour />}></Route>
                     <Route path="/team-style-5" element={<TeamFive />}></Route>
-                    <Route path="/team-details" element={<TeamDetails />}></Route>
+                    <Route path="/team-details/:id" element={<TeamDetails />}></Route>
                     {/* <Route path="/blog-list" element={<BlogList />}></Route> */}
                     <Route path="/blog-grid" element={<BlogGrid />}></Route>
                     {/* <Route path="/blog-details" element={<BlogDetails />}></Route> */}

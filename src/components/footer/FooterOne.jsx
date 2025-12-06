@@ -10,7 +10,7 @@ function FooterOne() {
                         <div className="col-xl-3 col-lg-6">
                             <div className="footer-three-single-wized left">
                                 <a href="index" className="logo_footer">
-                                    <img src="assets/images/logo/logo.svg" alt="Logo-image" />
+                                    <img src="/assets/images/logo/logo.svg" alt="Logo-image" />
                                 </a>
                                 <p className="disc">
                                 LDR Groups is a professional audit, tax, and compliance advisory firm supporting businesses with accurate, transparent, and reliable financial solutions.
@@ -133,37 +133,37 @@ function FooterOne() {
                                     <div className="footer-gallery-inner">
                                         <a href="#">
                                             <img
-                                                src="assets/images/footer/three-gallery/01.png"
+                                                src="/assets/images/footer/three-gallery/01.png"
                                                 alt="Footer-gallery"
                                             />
                                         </a>
                                         <a href="#">
                                             <img
-                                                src="assets/images/footer/three-gallery/02.png"
+                                                src="/assets/images/footer/three-gallery/02.png"
                                                 alt="Footer-gallery"
                                             />
                                         </a>
                                         <a href="#">
                                             <img
-                                                src="assets/images/footer/three-gallery/03.png"
+                                                src="/assets/images/footer/three-gallery/03.png"
                                                 alt="Footer-gallery"
                                             />
                                         </a>
                                         <a href="#">
                                             <img
-                                                src="assets/images/footer/three-gallery/04.png"
+                                                src="/assets/images/footer/three-gallery/04.png"
                                                 alt="Footer-gallery"
                                             />
                                         </a>
                                         <a href="#">
                                             <img
-                                                src="assets/images/footer/three-gallery/05.png"
+                                                src="/assets/images/footer/three-gallery/05.png"
                                                 alt="Footer-gallery"
                                             />
                                         </a>
                                         <a href="#">
                                             <img
-                                                src="assets/images/footer/three-gallery/06.png"
+                                                src="/assets/images/footer/three-gallery/06.png"
                                                 alt="Footer-gallery"
                                             />
                                         </a>
